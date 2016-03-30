@@ -1,0 +1,81 @@
+{% extends 'header.html' %}
+{% block title %} Problema {% endblock %}
+
+{%  block content %}
+
+	<section id="inner-headline">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<ul class="breadcrumb">
+					<li><a href="{% url 'index' %}"><i class="fa fa-home"></i></a></li>
+					<li class="active">Problema</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</section>
+	
+	<section id="content">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<article>
+						<div class="post-image">
+							<img src="static/img/dummies/blog/problema.jpg" alt="" class="img-responsive" />
+                            <div class="post-heading">
+								<h3><a href="#">Descripción del Problema</a></h3>
+							</div>
+						</div>
+						<p> La educación es un pilar fundamental para el desarrollo tanto personal como profesional de los individuos, es por esto, que instituciones educativas, centros de aprendizaje, escuelas y demás, buscan impartir bases que suplan esta necesidad y ayuden a la correcta formación de cada individuo que accede a ellos. </p>
+
+<p>En la actualidad y con el avance que ha tenido la tecnología, es sencillo encontrar herramientas en el entorno web que sean de apoyo para la enseñanza de las diferentes asignaturas que se orientan en estas instituciones. Pero aún existen ciertas limitaciones que dificultan la implementación de las TIC a estas enseñanzas y esto hace que los estudiantes no se motiven para el auto-aprendizaje y que impartir las clases sea un poco más complicado. </p>
+
+<p>Una de estas limitaciones es que estas herramientas no suplen la necesidad en su totalidad de los temas que se requieren enseñar, o bien, hay que pagar un elevado precio para poder usarlas. Esto causa que los talleres y trabajos que se dejen dependan únicamente de lo visto en clase y el estudiante busque apoyarse en sitios web o textos de poca confianza.</p>
+
+<p>Además esto implica que las clases muchas veces se vuelvan muy repetitivas por el hecho de que los recursos usados por el docente sean siempre materiales impresos, lo que causa que los estudiantes tengan dificultades en el aprendizaje al ser la clase monótona.</p>
+
+<p>Otro punto es el tiempo, los temas expuestos muchas veces superan el tiempo estipulado para la orientación de la clase y esto conlleva a que las dudas generadas no alcancen a ser resueltas.</p>
+
+				</article>
+                
+                <article>
+						<div class="post-image">
+                            <div class="post-heading">
+								<h3><a href="#">Elementos del Problema</a></h3>
+							</div>
+						</div>
+                        <ul>
+						<li>¿En que puede apoyarse el docente para hacer q las clases sean más llamativas y así captar la atención de los estudiantes?</li>
+						<li>¿Cómo integrar el uso de las TIC como un apoyo dinámico y entretenido para fomentar el aprendizaje del estudiante?</li>
+						<li>¿Cómo brindar un sitio de confianza en que los estudiantes se puedan apoyar para sus actividades extra clase?</li>
+						</ul>
+					
+				</article>
+                
+                 <article>
+						<div class="post-image">
+                            <div class="post-heading">
+								<h3><a href="#">Formulación del Problema</a></h3>
+							</div>
+						</div>
+                        <p>Con base a esto surge la problemática <strong>¿Cómo desarrollar un recurso educativo el cual contenga las competencias que se requieren orientar en la asignatura de inglés y sirva como un apoyo dinámico y sencillo de usar tanto para el docente como para el estudiante en el desarrollo de las actividades?</strong></p>
+						
+						<div class="bottom-article">
+							<ul class="meta-post">
+								<li><i class="fa fa-calendar"></i> Mar 20, 2016</li>
+							</ul>
+						</div>
+				</article>
+					
+				
+				<div class="clear"></div>
+			</div>
+
+            {% include 'menublog.html' %}
+
+		</div>
+	</div>
+	</section>
+
+{% endblock %}

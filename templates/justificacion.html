@@ -1,0 +1,96 @@
+{% extends 'header.html' %}
+{% block title %} Justificación {% endblock %}
+
+{%  block content %}
+
+	<section id="inner-headline">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<ul class="breadcrumb">
+					<li><a href="{% url 'index' %}"><i class="fa fa-home"></i></a></li>
+					<li class="active">Justificación</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</section>
+	
+	<section id="content">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<article>
+						<div class="post-image">
+							<img src="static/img/dummies/blog/justificacion.jpg" alt="" class="img-responsive" />
+                            <div class="post-heading">
+								<h3><a href="#"></a></h3>
+							</div>
+						</div>
+						<p>Partiendo de ello surge este proyecto el cual será un recurso educativo orientado hacia la WEB que contendrá todos los módulos, temas y actividades que se vallan a realizar en la clase, siendo así, un apoyo tanto para el docente como para los estudiantes ya que podrán encontrar dichos contenidos en horarios diferentes a los estipulados en el colegio y así aportar al auto-aprendizaje.</p>
+
+<p>Con ello se busca beneficiar a una comunidad estudiantil en el desarrollo de su aprendizaje </p>
+
+<p>Adicionalmente, el proyecto será llevado a cabo en la escuela Normal Superior María Auxiliadora de Girardot y será orientado en la asignatura de Ingles como un soporte para que estas clases puedan realizarse de una manera más dinámica y con ello garantizar el aprendizaje de los estudiantes.</p>
+
+				</article>
+                
+                <article>
+						<div class="post-image">
+                            <div class="post-heading">
+								<h3><a href="#">Justificación Social</a></h3>
+							</div>
+						</div>
+                        <p>En el entorno social actual la tecnología ha tomado un papel principal, pero en el sector educativo aún existen ciertas dificultades que impiden el uso de estas herramientas y hacen que impartir las clases requiera de un contacto frecuente con el docente.</p> 
+
+<p>Es por esto que con este proyecto se busca dar una solución óptima a esta problemática por medio de un recurso educativo realizado en un entorno WEB, teniendo por objetivo que los estudiantes aprovechen el uso de las TIC para la realización de actividades en pro de su formación y, además, el docente tenga un apoyo seguro para la orientación de sus actividades.</p>
+
+<p>De esta manera, los padres de familia y/o acudientes podrán estar seguros de que la educación orientada en la institución es de una excelente calidad y garantiza el desarrollo en el aprendizaje.</p>
+
+<p>Además, las directivas de la institución se verán beneficiadas con los resultados obtenidos, y con ello, aumentando la demanda por parte de personas particulares que se interesen en este recurso educativo.</p>
+
+					
+				</article>
+                
+                 <article>
+						<div class="post-image">
+                            <div class="post-heading">
+								<h3><a href="#">Justificación Académica</a></h3>
+							</div>
+						</div>
+                        <p>El proyecto es creado en la Universidad Piloto de Colombia en la carrera de Tecnología en Desarrollo de Sistemas de Información y, con el cual, se busca satisfacer una necesidad que se viene presentando en una comunidad estudiantil a la hora de impartir las clases de inglés ofreciendo un soporte adicional para que así se garantice un mejor aprendizaje.</p>
+						
+				</article>
+                
+                <article>
+						<div class="post-image">
+                            <div class="post-heading">
+								<h3><a href="#">Justificación Técnica</a></h3>
+							</div>
+						</div>
+                        <p>En la realización de este proyecto se usaran varios de los conocimientos adquiridos a lo largo de la carrera Tecnológica:</p>
+
+<p>La interfaz gráfica se realizará bajo el lenguaje de HTML y CSS para el diseño, lenguajes de programación como PHP y JavaScript para la interacción de las páginas con el usuario de una forma más dinámica. También se hace uso de un framework para diseño de aplicaciones WEB como lo es Bootstrap, el cual contiene plantillas con tipografía, formularios, botones, cuadros, menús de navegación y otros elementos para el diseño de las páginas.</p>
+
+<p>Para la base de datos se empleará MySQL. </p>
+
+<p>Además, se usará otro framework como Django para comunicar la base de datos con la interfaz gráfica haciendo uso de Python, un lenguaje de programación bastante flexible ideal para el desarrollo de aplicaciones en entorno WEB.</p>
+						
+						<div class="bottom-article">
+							<ul class="meta-post">
+								<li><i class="fa fa-calendar"></i> Mar 20, 2016</li>
+							</ul>
+						</div>
+				</article>
+					
+				
+				<div class="clear"></div>
+			</div>
+
+			{% include 'menublog.html' %}
+
+		</div>
+	</div>
+	</section>
+
+{% endblock %}

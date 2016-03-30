@@ -1,0 +1,118 @@
+{% extends 'header.html' %}
+{% block title %} Inicio {% endblock %}
+
+{%  block content %}
+
+	<section id="featured" class="bg">
+	<!-- start slider -->
+
+			
+	<!-- start slider -->
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+	<!-- Slider -->
+        <div id="main-slider" class="main-slider flexslider">
+            <ul class="slides">
+              <li>
+                <img src="static/img/slides/flexslider/1.jpg" alt="" />
+                <div class="flex-caption">
+                    <h3>El problema</h3> 
+					<p>Descripción y planteamiento del problema por el cual se desarrolla el proyecto</p> 
+					<a href="{% url 'problema' %}" class="btn btn-theme">Leer Más</a>
+                </div>
+              </li>
+              <li>
+                <img src="static/img/slides/flexslider/2.jpg" alt="" />
+                <div class="flex-caption">
+                    <h3>Justificación Y Objetivos</h3> 
+					<p>El por qué de la realización del proyecto y lo que se quiere lograr.</p> 
+					<a href="{% url 'justificacion' %}" class="btn btn-theme">Leer Más</a>
+                </div>
+              </li>
+              <li>
+                <img src="static/img/slides/flexslider/3.jpg" alt="" />
+                <div class="flex-caption">
+                    <h3>Esquemas</h3> 
+					<p>Esquemas para la consideración del proyecto.</p> 
+					<a href="{% url 'esquemas' %}" class="btn btn-theme">Leer Más</a>
+                </div>
+              </li>
+            </ul>
+        </div>
+	<!-- end slider -->
+			</div>
+		</div>
+	</div>	
+
+
+	</section>
+	
+	
+	<section id="content">
+    	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="row">
+					<div class="col-sm-6 col-md-6">
+					<h4>Software Educacional de Ingles</h4>
+						<div class="testimonialslide clearfix flexslider">
+							<ul class="slides">
+								</li>
+								<li><blockquote>
+								Este blog está diseñado para mostrar los avances del documento del proyecto que se viene trabajando en la asignatura de Proyecto de Grado.
+									</blockquote>
+									<h4>Presentado por <span>&#8213; Angie Espitia </span></h4>
+								</li>	
+							</ul>
+						</div>					
+					</div>	
+					<div class="col-sm-6 col-lg-6">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#one" data-toggle="tab"><i class="icon-briefcase"></i> One</a></li>
+							<li><a href="#two" data-toggle="tab">Two</a></li>
+							<li><a href="#three" data-toggle="tab">Three</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="one">
+								<p><img src="static/img/dummy1.jpg" class="pull-left" alt="" />
+									<strong>Augue iriure</strong>La educación es un pilar fundamental para el desarrollo tanto personal como profesional de los individuos,
+                                    es por esto, que instituciones educativas, centros de aprendizaje, escuelas y demás, buscan impartir bases que suplan esta necesidad y ayuden
+                                    a la correcta formación de cada individuo que accede a ellos. </p>
+								<p>
+									 No eum sanctus vituperata reformidans, dicant abhorreant ut pro. Duo id enim iisque praesent, amet intellegat per et, solet referrentur eum et.
+								</p>
+							</div>
+							<div class="tab-pane" id="two">
+								<p><img src="static/img/dummy1.jpg" class="pull-right" alt="" />
+									 Tale dolor mea ex, te enim assum suscipit cum, vix aliquid omittantur in. Duo eu cibo dolorum menandri, nam sumo dicit admodum ei. Ne mazim commune honestatis cum, mentitum phaedrum sit et.
+								</p>
+								<p>Lorem ipsum dolor sit amet, vel laoreet pertinacia at, nam ea ornatus ocurreret gubergren. Per facete graecis eu.</p>
+							</div>
+							<div class="tab-pane" id="three">
+								<p>Lorem ipsum dolor sit amet, vel laoreet pertinacia at, nam ea ornatus ocurreret gubergren. Per facete graecis eu. </p>
+								<p>
+									 Cu cum commodo regione definiebas. Cum ea eros laboramus, audire deseruisse his at, munere aeterno ut quo. Et ius doming causae philosophia, vitae bonorum intellegat usu cu.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>	
+		
+		<!-- divider -->
+		<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="solidline">
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- end divider -->
+
+	</section>
+	
+{% endblock %}
